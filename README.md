@@ -33,9 +33,9 @@ self-definition PK (numeric) increment
 
 150 requests success, 3.x second avg time  
 ![](image/testDeferredResult01.png)
-
+  
 4 cannot get lock!!!  
 ![](image/testDeferredResult02.png)
-
-146 - 88 = 62 insert rows  
+  
+150 - 4 = 146 insert rows  
 ![](image/testDeferredResult03.png)
