@@ -13,6 +13,8 @@ self-definition PK (numeric) increment
 - The request is the only one executor of inserting.
 - Release lock.
 
+default isolation level: **REPEATABLE-READ**
+
 ### test
 
 30 requests / 1 second => 5s 150 requests  
